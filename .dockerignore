@@ -1,0 +1,57 @@
+# Version Control
+.git/
+.gitignore
+.gitattributes
+
+# Go Binaries and Build Artifacts
+devops-practice-app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+*.pprof
+bin/
+dist/
+
+# Test Files and Mock Suites
+*_test.go
+test/
+tests/
+testdata/
+coverage/
+coverage.html
+coverage.txt
+
+# Local Environment and Secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+
+# IDE and Editor Metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Documentation and Project Assets
+*.md
+docs/
+LICENSE
+Makefile
+
+# Docker and CI/CD Configs
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+.github/
