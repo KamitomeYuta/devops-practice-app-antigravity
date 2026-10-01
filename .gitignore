@@ -1,0 +1,11 @@
+# Binaries
+/devops-practice-app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+*.test
+*.out
