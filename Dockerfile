@@ -3,7 +3,7 @@
 # ==========================================
 # Stage 1: Build & Security Hardening
 # ==========================================
-FROM golang:1.23-alpine AS builder
+FROM golang:1.27-alpine AS builder
 
 WORKDIR /src
 
